@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "owners": "packages/owners",
+    "owners-e2e": "packages/owners-e2e"
+  }
 }

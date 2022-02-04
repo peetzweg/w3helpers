@@ -1,0 +1,28 @@
+{
+  "root": "packages/owners-e2e",
+  "sourceRoot": "packages/owners-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/owners-e2e/cypress.json",
+        "devServerTarget": "owners:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "owners:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/owners-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["owners"]
+}
