@@ -11,7 +11,6 @@
     "@nrwl/jest": "13.7.2",
     "@nrwl/js": "13.7.2",
     "@nrwl/linter": "13.7.2",
-    "@nrwl/next": "^13.7.2",
     "@nrwl/react": "^13.7.2",
     "@nrwl/tao": "13.7.2",
     "@nrwl/web": "13.7.2",
