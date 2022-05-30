@@ -118,7 +118,8 @@ export function CollectorPage() {
         <FormControl paddingBottom={4}>
           <InputGroup>
             <Input
-              placeholder="in Collection"
+              fontFamily={'mono'}
+              placeholder="Address of Collection"
               value={collection}
               onChange={(e) => setCollection(e.target.value)}
             />
@@ -153,7 +154,8 @@ export function CollectorPage() {
         <FormControl paddingBottom={4}>
           <InputGroup>
             <Input
-              placeholder="Tokens of"
+              fontFamily={'mono'}
+              placeholder="Address of Collector"
               value={owner}
               onChange={(e) => setOwner(e.target.value)}
             />
@@ -200,7 +202,7 @@ export function CollectorPage() {
             }
           />
         )}
-        <Text>{`Total: ${data?.owner?.tokens.length || 0}`}</Text>
+        <Text pt={2} pl={2}>{`Total: ${data?.owner?.tokens.length || 0}`}</Text>
       </Box>
     </HStack>
   );

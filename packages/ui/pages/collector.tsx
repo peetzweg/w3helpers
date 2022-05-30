@@ -1,4 +1,4 @@
-import { CollectorPage } from '@web3tools/page/collector';
+import { CollectorPage } from '@w3helpers/page/collector';
 import Head from 'next/head';
 export function Page() {
   return (

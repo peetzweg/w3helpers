@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react';
-import { theme } from '@web3tools/ui-shared';
+import { theme } from '@w3helpers/ui-shared';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -10,7 +10,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>web3tools</title>
+        <title>w3helpers</title>
       </Head>
       <main className="app">
         <QueryClientProvider client={queryClient}>

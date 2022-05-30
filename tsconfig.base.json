@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@web3tools/page/collector": ["packages/page/collector/src/index.ts"],
-      "@web3tools/ui-shared": ["packages/ui-shared/src/index.ts"]
+      "@w3helpers/page/collector": ["packages/page/collector/src/index.ts"],
+      "@w3helpers/ui-shared": ["packages/ui-shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
