@@ -1,6 +1,6 @@
 {
   "extends": "@nrwl/workspace/presets/core.json",
-  "npmScope": "owners",
+  "npmScope": "web3tools",
   "affected": {
     "defaultBase": "main"
   },
@@ -27,6 +27,12 @@
       },
       "library": {
         "style": "none",
+        "linter": "eslint"
+      }
+    },
+    "@nrwl/next": {
+      "application": {
+        "style": "@emotion/styled",
         "linter": "eslint"
       }
     }

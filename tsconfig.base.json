@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@web3tools/page/collector": ["packages/page/collector/src/index.ts"],
+      "@web3tools/ui-shared": ["packages/ui-shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

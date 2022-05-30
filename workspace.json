@@ -1,7 +1,8 @@
 {
   "version": 2,
   "projects": {
-    "owners": "packages/owners",
-    "owners-e2e": "packages/owners-e2e"
+    "page-collector": "packages/page/collector",
+    "ui": "packages/ui",
+    "ui-shared": "packages/ui-shared"
   }
 }
